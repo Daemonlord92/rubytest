@@ -1,4 +1,12 @@
-print "Enter Tasks: "
-input_arr = gets.chomp.split
-p input_arr
-puts input_arr
+istall = false
+ismale = false
+
+if ismale and istall
+  puts "You are a tall male"
+elsif ismale and !istall
+  puts "You are a short male"
+elsif !ismale and istall
+  puts "You are a tall female"
+else
+  puts "You are a short female"
+end
